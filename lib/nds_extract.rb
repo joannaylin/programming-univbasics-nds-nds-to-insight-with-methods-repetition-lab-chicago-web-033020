@@ -57,4 +57,5 @@ def total_gross(source)
     i += 1
   end
 
+  grand_total 
 end
