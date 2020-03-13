@@ -52,7 +52,7 @@ def total_gross(source)
 
   while i < director_names.length do
     director_names = director_names[i]
-    grand_total += hash[director_names]
+    total += hash[director_names]
     i += 1
   end
   total
