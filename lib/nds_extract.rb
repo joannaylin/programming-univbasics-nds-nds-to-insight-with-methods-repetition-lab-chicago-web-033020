@@ -56,5 +56,5 @@ def total_gross(source)
     grand_total = hash[director_names]
     i += 1
   end
-  
+
 end
