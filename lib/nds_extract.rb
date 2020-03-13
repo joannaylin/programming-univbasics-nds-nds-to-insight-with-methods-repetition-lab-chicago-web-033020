@@ -48,12 +48,12 @@ def total_gross(source)
   hash = directors_totals(source)
   director_names = list_of_directors(source)
   i = 0
-  grand_total = 0
+  total = 0
 
   while i < director_names.length do
     director_names = director_names[i]
     grand_total += hash[director_names]
     i += 1
   end
-  grand_total
+  total
 end
